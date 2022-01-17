@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+body{
+    background-color: rgb(102, 96, 96);
+}
+.flexx{
+float: left;
+margin-left: 0%;
+margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-control-sm{
+    width: 200px;
+    margin-left: 0%;
+}.mb-2{float: left;
+
+}
+.shadoww{
+    width: 250px;
+    height: 300px;
+    box-shadow: 0px 0px 8px rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin-left: 0%;
+}
+.main{
+    display: flex;
+    justify-content:center;
+    margin-left: 0%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainn{
+    /* border: 1px solid black; */
+    
+    display: flex;
+    justify-content:center;
+    background-color: rgb(128, 121, 121);
+    cursor: pointer;
+   
+}.name{
+    color: rgb(141, 7, 7);
+    font-weight: bold;
+   
+}.list{
+    display: flex;
+    justify-content:center;
+    
+}.add{
+    color: rgb(5, 5, 5);
+    margin-left: 0%;
+    justify-content: center;
+}
+.isActive {
+    background-color: teal;
+    border: 2px solid black;
+}.isnotactive{
+    background-color: rgb(217, 235, 235);
+}form legend{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 30px;
+    color: rgb(20, 19, 19);
+}form{
+    margin: 20px;
+}form label{
+    font-weight: 300;
 }

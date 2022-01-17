@@ -1,0 +1,17 @@
+{
+    "jobs":[{
+        "name":"Infosys",
+         "jobtitle":"Software-developer", 
+        "salary":"5lpa" ,
+         "jobdescription":"full-time", 
+        "location":"Banglore",
+         "jobtype":"remote"
+    },{
+        "name":"Infosys",
+        "jobtitle":"Software-developer", 
+       "salary":"5lpa" ,
+        "jobdescription":"full-time", 
+       "location":"Banglore",
+        "jobtype":"remote"
+    }]
+}
